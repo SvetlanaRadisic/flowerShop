@@ -1,0 +1,66 @@
+.form-holder{
+    background-image: url('/assets/loginBackground.jpg');
+    height: 89vh;
+    background-position: center
+}
+.login-text{
+    font-weight: 500;
+    margin-bottom: 0;
+    font-size:xx-large;
+}
+.signup-text{
+    font-size: 10px;
+    padding-top: 0;
+}
+
+.help-block{
+    color: red;
+    font-size: 12px;
+}
+
+input.ng-invalid.ng-touched{
+    border: 1px solid red;
+}
+.signup-text{
+    font-weight: 500;
+    margin-bottom: 0;
+    font-size:xx-large;
+}
+.log-in-text{
+    font-size: 10px;
+    padding-top: 0;
+}
+
+a{
+    color:black;
+}
+
+
+button{
+    border:none;
+}
+.backdrop{
+    background-color:rgba(117, 114, 114, 0.6);
+    position:fixed;
+    top:0;
+    left:0;
+    width:100vw;
+    height:100vh;
+    z-index: 2;
+    }
+
+.modal-content{
+    border: solid 2px black;
+    position: absolute;
+    top: 12%;
+} 
+#loginlink{
+    text-decoration: none;
+    color: white;
+}   
+
+@media (max-width: 992px){   
+   .form-holder{
+    min-height: 92vh;
+   }
+}
